@@ -1,7 +1,8 @@
 # cex-monitor
 监控六个主流数字货币交易所的上币公告：Gate Bybit Bitget KuCoin Binance OKX 
 
-在线文档 https://chainmyway.com，还有对应的 **教学视频**
+在线文档 https://chainmyway.com 
+还有对应的 **教学视频**
 
 请填入以下参数
 - tg.rs 模块
