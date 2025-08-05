@@ -1,0 +1,39 @@
+[package]
+name = "cex-monitor-notify"
+version = "1.0.0"
+edition = "2024"
+
+[profile.release]
+# 极致运行性能
+opt-level = 3
+# 跨 crate 优化
+lto = "fat"
+# 获得更好运行时性能
+codegen-units = 1
+# 二进制文件更小
+panic = "abort"
+strip = true
+
+[dependencies]
+# HTTP请求
+reqwest = { version = "0.12.22", features = ["json", "socks", "gzip", "rustls-tls"] }
+# 异步
+tokio = { version = "1.45.1", features = ["full"] }
+# 错误处理
+anyhow = "1"
+# 序列化/反序列化
+serde = { version = "1.0", features = ["derive"] }
+# 处理JSON
+serde_json = "1.0"
+# 处理日期、时间
+chrono = "0.4.41"
+# 异步处理websocket消息
+futures-util = "0.3.30"
+# tokio的websocket实现
+tokio-tungstenite = { version = "0.21.0", features = ["rustls-tls-webpki-roots"] }
+# 加密签名
+ring = "0.17"
+# 生成唯一识别码
+uuid = { version = "1.3", features = ["v4"] }
+# URL 构建、解析
+url = "2.0"
