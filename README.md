@@ -4,8 +4,8 @@
 在线文档 https://chainmyway.com 
 
 还有对应的教学视频
-- B站 
-- Youtube 
+- B站 https://www.bilibili.com/video/BV1E3tnzCE5W
+- Youtube https://www.youtube.com/watch?v=tmvrUiPIlnA&list=PLMsVemdMJKNXCBgj5KD2vqbP-_Sdks0Ow&index=1
 
 请填入以下参数
 - tg.rs 模块
